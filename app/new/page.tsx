@@ -1,4 +1,3 @@
-import React from 'react'
 import { TaskForm } from './Task-form'
 
 const NewPage = () => {
