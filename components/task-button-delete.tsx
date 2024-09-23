@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Button } from "./ui/button";
 import { deleteTask } from "@/actions/tasks-actions";
 

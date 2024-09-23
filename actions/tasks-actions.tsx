@@ -61,6 +61,4 @@ export async function updateTask(formData:FormData) {
         }}); 
 
     redirect("/")
-
-    console.log(id, name, description, priority)
 }
