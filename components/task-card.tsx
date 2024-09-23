@@ -5,7 +5,6 @@ import clsx from "clsx";
 import { Badge } from "@/components/ui/badge"
 import { Task } from '@prisma/client';
 import { TaskButtonDelete } from './task-button-delete';
-import { editTask } from '@/actions/edit-task-actions';
 import Link from 'next/link';
 
 const TaskCard = ({task}:{task:Task}) => {

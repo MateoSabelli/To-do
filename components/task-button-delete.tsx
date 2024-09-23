@@ -1,6 +1,4 @@
-import prisma from "@/lib/prisma";
 import { Button } from "./ui/button";
-import { revalidatePath } from "next/cache";
 import { deleteTask } from "@/actions/tasks-actions";
 
 export function TaskButtonDelete({taskId}:{taskId:number}) {
